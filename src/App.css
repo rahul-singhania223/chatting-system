@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.my-ms-container {
+    margin-left: auto;
+    display: flex;
+    text-align: center;
+}
+
+.my-messege {    
+    background-color: #000;
+    color: #fff;
+    
+    
+}
+
+.others-messege {
+    background-color: #e7e7e7;
+    
+}
+
+.active-contact {
+    background-color: #e7e7e7;
+}
+
+@media(max-width: 800px) {
+    .my-messege, .others-messege {
+        max-width: 250px;
+    }
+}
